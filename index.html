@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>metal | Template five</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/metal.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet" />
+    <!--Icon-->
+    <link rel="icon" href="img/logo.png">
+  </head>
+  <body>
+  <!--start header-->
+  <div class="header">
+      <div class="container">
+          <div id="mySidenav" class="sidenav" >
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class="act">Home</a>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div>
+            <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
+            <span class="tog">
+              <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776</span>
+            </span>
+          </div>
+      </div>
+  </div>
+  <!--end header-->
+  <!--start landing section-->
+  <div class="landing">
+    <div class="container">
+      <div class="intro-text">
+        <h1 class="h">welcome</h1>
+        <h1 class="hh">metals factory</h1>
+        <p>
+          It is a long established fact that a reader will be distracted by 
+          <br> 
+          the readable content of a page when looking at its layout. The 
+          <br>
+          point of using Lorem Ipsum is that it has a more-or-less normal 
+          <br>
+          distribution of letters,
+        </p>
+        <div class="box">
+        <a href="#contact" class="a">contact now</a>
+        <a href="#about" class="aa">about factory</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--end landing section-->
+<!--start about-->
+<div class="about" id="about">
+  <div class="container">
+  <div class="box">
+    <img src="img/about.jpg" alt="factory">
+    <div class="text-box">
+    <h1>about of factory</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+      <br>
+       Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme 
+      <br>
+       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean 
+      <br> 
+      commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus
+      <br>
+       et magnis dis parturient montes, nascetur. natoque penatibus et magnis 
+      </p>
+      <div class="bot">
+        <a href="##">about us</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!--end about-->
+<!--start product-->
+<div class="product" id="product">
+  <div class="container">
+    <div class="text">
+      <h1>Metal Products</h1>
+      <p>
+        It is a long established fact that at it has a a reader will be distracted by the readable content of a page when looking  
+        <br>
+         at its layout. The point of using Lorem Ipsum is th
+      </p>
+    </div>
+    <div class="box">
+      <div class="b">
+      <img src="img/pro1.png" alt="metal">
+      </div>
+      <div class="bb">
+        <img src="img/pro1.png" alt="metal">
+      </div>
+      <div class="bbb">
+        <img src="img/pro1.png" alt="metal">
+        </div>
+    </div>
+    <div class="text2">
+      <a href="##">see more</a>
+    </div>
+  </div>
+</div>
+<!--end product-->
+<!--start contact-->
+<div class="contact" id="contact">
+  <div class="container">
+    <div class="text">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="form">
+      <form action="index.html">
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Email" required>
+        <input type="text" placeholder="Phone Number" required>        
+        <input class="unusual_box" type="text" placeholder="Message" required>
+        <div class="sub-dir">
+        <input type="submit" class="submit-bot" value="Send">
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+<!--end contact-->
+<!--start footer-->
+<div class="footer">
+  <div class="container">
+    <div class="icon">
+      <div class="mail">
+        <i class="fa-solid fa-laptop"></i>
+        <p>besho@mail.com</p>
+      </div>
+      <div class="place">
+        <i class="fa-solid fa-house"></i>
+        <p>T137 Timber Oak Drive <br> Sundown, TX 79372</p>
+      </div>
+      <div class="phon">
+        <i class="fa-solid fa-phone"></i>
+        <p>+000 - 123 - 456 - 789</p>
+      </div>
+    </div>
+    <div class="footerr">
+      Copyright 2023 © by <span>beshoy samy.</span>
+    </div>
+  </div>
+</div>
+<!--end footer-->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "200px";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+  </body>
+</html>
